@@ -1,0 +1,118 @@
+/*MOBILE*/
+
+
+@media (max-width: 800px) {
+
+	body {
+		background: #151515 url('../images/bg-blur2.jpg') no-repeat fixed;
+		background-size: cover !important;
+	 	font-size: 1.2rem;
+	}
+
+	br { 
+		display:none;
+	}
+
+	.site-title-sub::before,
+	.site-title-sub::after {
+	 	display: block;
+	 	width: 100%;
+	 	margin: 10px auto;
+	}
+
+	.site-title-sub{
+	 	font-size: 1.7rem;
+	}
+
+	#nav{
+		font-size: 1.3rem;
+	}
+
+	.header {
+	 	padding-top: 60px;
+	}
+
+	.header-background {
+		padding: 20px;
+		background-color: rgba(255, 255, 255, 0.6);
+	}
+
+	.site-description {
+	margin-bottom: 20px;
+	color: #000;
+	font-size: 1.4rem;
+	}
+
+	.buttons .button{
+		margin: 10px auto;
+	}
+
+	/*ABOUT*/
+
+	.heading{ 
+		font-size: 3rem;
+	}
+
+	.about-text {
+	margin: 30px 5px;
+	line-height: 2.0;
+	}
+
+	/*CIRCLE MENU*/
+	.circlemenu-wrapper,
+	.circlemenu-box {
+		display: block;
+	}
+
+	.circlemenu-icon {
+	width: 100px;
+	height: 100px;
+	margin:10px 0 20px;
+	font-size: 5rem !important;
+	line-height: 92px !important;
+	}
+
+	.circlemenu-title{
+		margin: 0 10px;
+		font-size: 1.7rem;
+	}
+	.circlemenu-text {
+		margin: 20px 0;
+		line-height: 2;
+	}
+
+	/*MEMBER*/
+	.member {
+		background: #151515 url('../images/bg-member2.png') no-repeat fixed;
+		background-size: cover;
+	}
+
+	.member td,th {
+		width: 100%;
+		display: block;
+		padding: 30px 10px;
+	}
+
+	.member br { 
+		display: inline;
+	}
+
+	/*CONTACT*/
+	.contact br {
+		display: inline;
+	}
+
+	.contact-text {
+		margin: 20px 0;
+		line-height: 2;
+	}
+
+	.display-none-mobile {
+		display: none;
+	}
+
+	.display-none-web {
+		display: inline;
+	}
+
+}

@@ -1,0 +1,601 @@
+@charset "UTF-8";
+
+html {
+	font-size: 62.5%;
+}
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	background: #151515 url('../images/bg-blur2.jpg') no-repeat fixed;
+	margin: 0;
+	background-size: cover;
+	color: #000;
+	text-align: center;
+	font-size: 1.4rem;
+	font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+	/*white-space: nowrap;*/
+}
+
+a:link{
+	color: #46949B;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #9B9986;
+}
+
+#nav{
+	width: 100%;
+	background-color: #f4f4f4;
+	padding: 1px 40px 1px 0px;
+	font-size: 1.7rem;
+	position: relative;
+}
+
+#nav li{
+	display: inline;
+	padding: 2em;
+	color: #333;
+}
+
+#nav a{
+	text-decoration: none;
+	color: #333;
+}
+
+#nav a:visited{
+	color: #333;
+	text-decoration: none;
+}
+
+#nav a:hover{
+	color: #8e8e8e;
+	text-decoration: none;
+}
+
+img.insta{
+	position: absolute;
+	width: 55px;
+	margin-top: -12px;
+	margin-left: 30%;
+}
+
+img.fb{
+	position: absolute;
+	width: 35px;
+	margin-top: -3px;
+	margin-left: 25%;
+}
+
+.header {
+	padding: 80px 30px 80px;
+}
+
+.header-background {
+	padding: 50px;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+.site-title-sub {
+	margin: 0 0 30px;
+	letter-spacing: 1px;
+	font-size: 2.2rem;
+}
+
+.site-title-sub::before,
+.site-title-sub::after {
+	content: '';
+	display: inline-block;
+	width: 140px;
+	height: 2px;
+	margin: 0 30px;
+	background-color: #000;
+	vertical-align: middle;
+}
+
+.site-title {
+	margin: 20px 0px 10px;
+	/*font-size: 7.6rem;*/
+}
+
+.site-description {
+	margin-bottom: 50px;
+	color: #000;
+	font-size: 1.6rem;
+}
+
+.button {
+	display: inline-block;
+	width: 200px;
+	padding: 20px;
+	border-radius: 4px;
+	background-color: #afa58d;
+	color: #fff;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-size: 1.2rem;
+}
+
+.button:hover {
+	opacity: 0.9;
+}
+
+.button:link{
+	color: #fff;
+}
+
+.button-showy {
+	background-color: #f1b400;
+}
+
+.buttons .button{
+	margin: 10px;
+}
+
+.notification {
+	background-color: rgba(255, 255, 255, 0.8);
+	color: #5C0938;
+	border-radius: 10px;
+	display: inline-block;
+	/* vertical-align: middle; */
+	/* margin-top: 20px; */
+	height: 100px;
+    padding: 20px 50px 50px;
+	font-size: 1.5rem;
+	line-height: 2;
+	/* overflow: scroll; */
+}
+
+.caption {
+	color: #fff;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+	font-size: 1rem;
+	line-height: 2.5;
+}
+
+/*ABOUT*/
+
+.about {
+	padding: 30px 30px 30px;
+	background-color: #fff;
+	color: #333;
+}
+
+.heading{ 
+	position: relative;
+	display: inline-block;
+	margin: 30px 0 15px;
+	padding-bottom: 15px;
+	letter-spacing: 2px;
+    font-size: 4rem;
+}
+
+/*.heading::before,
+.heading::after {
+	content: '';
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	border-bottom: 1px solid #999;
+}*/
+
+.heading::before {
+	bottom: 5px;
+}
+
+.about-text {
+	margin: 30px 0;
+	line-height: 2.5;
+}
+
+
+/*CIRCLE MENU*/
+.circlemenu {
+	padding: 10px 0 80px;
+	background-color: #fff;
+	color: #333;
+}
+
+.circlemenu-wrapper {
+	display: table;
+	width: 80%;
+	margin: 50px auto 0;
+	table-layout: fixed;
+}
+
+.circlemenu-box {
+	display: table-cell;
+}
+
+.circlemenu-icon {
+	width: 150px;
+	height: 150px;
+	margin-bottom: 30px;
+	border: 4px solid;
+	border-radius: 50%;
+	color: #82730D;
+	font-size: 8rem !important;
+	line-height: 142px !important;
+}
+
+.circlemenu-link:hover {
+	opacity: 0.7;
+}
+
+.circlemenu-title{
+	margin: 0 20px 20px;
+	font-size: 2rem;
+}
+.circlemenu-text {
+	margin: 0 20px;
+	line-height: 2;
+}
+
+/*MEMBER*/
+.member {
+	padding: 30px 30px 30px;
+	background: #151515 url('../images/bg-member2.png') no-repeat fixed;
+	background-size: cover;
+	/*background-color: #afa58d;*/
+	color: #fff;
+}
+
+.member-heading::before,
+.member-heading::after {
+	border-bottom: 1px solid #fff;
+}
+
+.member-table {
+	width: 90%;
+	text-align: center;
+	margin: 30px auto 0;
+}
+
+.member td {
+	padding: 30px 10px;
+}
+
+.member-image {
+	border: solid 5px #fff;
+	border-radius: 5%;
+}
+
+.member-button {
+	background-color: #00484F;
+	color: #fff;
+}
+
+/*PROFILE*/
+.profile {
+	padding: 20px 30px 20px;
+	background: #fff;
+	color: #000;
+}
+
+.profile-frame{
+		display:table;
+	width:100%;
+	margin-bottom:30px;
+	padding:30px 30px;
+	background-color:#fff;
+	box-shadow:1px 1px 7px 0px rgba(0,0,0,0.15);
+	border:solid 1px #f2f2f2;
+	border-radius:7px;
+/*	text-align: left;
+	width:100%;
+	height: 330px;
+	border: 2px solid #d3d1cb;
+	border-radius: 10px;
+	padding: 30px;
+
+	display: table;
+	table-layout: fixed;
+
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;*/
+
+}
+
+.profile-pict {
+	display:table-cell;
+	width:28%;
+	vertical-align:top;
+}
+.profile-text-header {
+	line-height:1.0;
+	text-align: left
+}
+.profile-name {
+	margin-top:-10px;
+	margin-bottom:5px;
+	font-size:2.4rem;
+	color: #5C0938;
+}
+.profile-name span {
+	margin-left:1rem;
+	font-size:1.5rem;
+	font-weight:normal;
+}
+.profile-post {
+	color:#5C0938;
+	font-size:1.2rem;
+	font-weight:normal;
+	text-align: left;
+}
+
+.profile .img {
+	float: none;
+	border: solid 5px #00484F;
+	border-radius: 5%;
+	position: absolute;
+}
+
+.profile-text{
+	text-align: left;
+}
+
+/*.profile-wrap {
+	table-layout: fixed
+	width: 80%;
+}*/
+
+/*.profile-description {
+    width: 80%;
+    height: 240px;
+    display: table-cell;
+    table-layout: fixed;
+    text-align: left;
+    left: 220px;
+    vertical-align: middle;
+    line-height: 2;
+
+    white-space: normal;
+
+    position: relative;
+}*/
+
+/*ACTIVITY*/
+.activity {
+	padding: 30px 30px 30px;
+	background-color: #fff;
+	color: #333;
+}
+
+.activity .bg {
+	width: 50%;
+	padding: 15px;
+	margin: 80px auto 20px;
+	border-radius: 5px;
+	background-color: #5C0938;
+
+	font-size: 1.8rem;
+	color: #fff;
+}
+
+.activity-text {
+	margin: 20px 0 20px;
+	line-height: 2.3;
+}
+
+/*GOAL*/
+.goal {
+	background: #151515 url('../images/goal_bg.jpg') no-repeat fixed;
+	background-size: cover;
+	padding: 30px 30px 30px;
+	/*background-color: #00484F;*/
+	color: #fff;
+	/*color: #333;*/
+}
+
+.goal .bg{
+	width: 50%;
+	padding: 15px;
+	margin: 80px auto 20px;
+	border-radius: 5px;
+	background-color: #5C0938;
+
+	font-size: 1.8rem;
+	color: #fff;
+}
+
+.bg-kari{
+	width: 50%;
+	padding: 15px;
+	margin: 80px auto 20px;
+	border-radius: 5px;
+	background-color: #9B9986;
+
+	font-size: 1.8rem;
+	color: #fff;
+}
+
+.goal-text-kari{
+	margin: 20px 0 20px;
+	line-height: 2.3;
+	color: #6b6b6b;
+}
+
+/*EXAMS*/
+.exams {
+    text-align: left;
+	padding: 20px 30px 20px;
+	background: #fff;
+	color: #000;
+}
+
+.exams-heading{
+    text-align: center;
+}
+
+.exams-subtitle {
+    text-align: left;
+    font-size: 3rem;
+	color: #32a852;
+}
+
+/*CONTACT*/
+
+.contact a:link{
+	color: #333;
+	text-decoration: none;
+}
+
+.contact a:visited{
+	color: #333;
+	text-decoration: none;
+}
+
+.contact a:hover{
+	color: #333;
+	text-decoration: none;
+}
+
+.contact {
+	padding: 30px 30px;
+	background-color: #fff;
+	color: #333;
+}
+
+.display-none-web {
+		display: none;
+}
+
+/*FOOTER*/
+.footer {
+	color: #fff;
+	padding: 12px 0;
+	font-size: 1.3rem;
+}
+
+/*MOBILE*/
+
+
+@media (max-width: 800px) {
+
+	body {
+		background: #151515 url('../images/bg-blur2.jpg') no-repeat fixed;
+		background-size: cover !important;
+	 	font-size: 1.2rem;
+	}
+
+	br { 
+		display:none;
+	}
+
+	.site-title-sub::before,
+	.site-title-sub::after {
+	 	display: block;
+	 	width: 100%;
+	 	margin: 10px auto;
+	}
+
+	.site-title-sub{
+	 	font-size: 1.7rem;
+	}
+
+	#nav{
+		font-size: 1.0rem;
+	}
+
+	img.insta{
+		width: 20px;
+		margin-top: -1px;
+		margin-left: 15%;
+	}
+
+	img.fb{
+		width: 15px;
+		margin-top: 0.3px;
+		margin-left: 5%;
+	}
+
+
+	.header {
+	 	padding-top: 60px;
+	}
+
+	.header br { 
+		display: inline;
+	}
+
+	.header-background {
+		padding: 20px;
+		background-color: rgba(255, 255, 255, 0.6);
+	}
+
+	.site-description {
+		margin-bottom: 20px;
+		color: #000;
+		font-size: 1.4rem;
+	}
+
+	.buttons .button{
+		margin: 10px auto;
+	}
+
+	.caption{
+		font-size: 1.3rem;
+	}
+
+	/*ABOUT*/
+
+	.heading{ 
+		font-size: 3rem;
+	}
+
+	.about-text {
+	margin: 30px 5px;
+	line-height: 2.0;
+	}
+
+	/*MEMBER*/
+	.member {
+		background: #151515 url('../images/bg-member2.png') no-repeat fixed;
+		background-size: cover;
+	}
+
+	.member td,th {
+		width: 100%;
+		display: block;
+		padding: 30px 10px;
+	}
+
+	.member br { 
+		display: inline;
+	}
+
+	.activity .bg {
+		font-size: 1.2rem;
+	}
+
+	.activity-text {
+		font-size: 1.2rem;
+		line-height: 1.5;
+	}
+
+	.goal .bg{
+		font-size: 1.2rem;
+	}
+
+	.goal-text {
+		font-size: 1.2rem;
+		line-height: 1.5;
+	}
+
+	.goal .bg-kari{
+		font-size: 1.2rem;
+	}
+
+	.goal-text-kari {
+		font-size: 1.2rem;
+		line-height: 1.5;
+	}
